@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<body>
+    <form action = "" method = "GET">
+        <!-- This is for text input  -->
+        <label for = "full_name">Full Name</label>
+        <input type = 'text' name = "full_name" id = "full_name" placeholder="Full Name" required>
+        <br>
+
+        <!-- For Number -->
+        <label for = "age">Age</label>
+        <input type="number" id = "age" name = "age" min = 0 max = 20 required>
+        <br>
+
+        <!-- For radio select  -->
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id = "male" name = "gender" value = "male">
+            <label for = "male">Male</label>
+            <input type="radio" id = "female" name = "gender" value = "female">
+            <label for = "female">Female</label>
+        </fieldset>
+        <br>
+
+        <!-- For checkbox -->
+        
+        <legend>Hobies</legend>
+        <input type="checkbox" id = "singing" name = "hobies" value = "singing">
+        <label for = "singing">Singing</label>
+        <input type="checkbox" id = "dancing" name = "hobies" value = "dancing">
+        <label for = "dancing">Dancing</label>
+        <br>
+
+        <!-- For select -->
+        <label for="semester">Choose Semester</label>
+        <select id = "semester" name = "semester">
+            <option value = "first_semester">first_semester</option>
+            <option value = "second_semester">second_semester</option>
+            <option value = "third_semester">third_semester</option>
+        </select>
+        
+        <!-- For button  -->
+        <button type  = "submit">Submit</button>
+        
+    </form>
+    
+</body>
+</html>

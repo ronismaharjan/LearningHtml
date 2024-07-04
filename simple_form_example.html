@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <form>
+        <table align="center">
+        
+            <caption>Novell Services Login</caption>
+            <tbody>
+                <!-- Section for username  -->
+                <tr>
+                    <td> 
+                        <label for = "username">Username</label>
+                    </td>
+                    <td>
+                        <input type="text" name = "username" id = "username" required size = 30>
+                    </td>
+                </tr>
+
+                <!-- Section for password  -->
+                <tr>
+                    <td> 
+                        <label for = "password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name = "password" id = "password" required size = 30>
+                    </td>
+                </tr>
+
+                <!-- Section for city employment  -->
+                <tr>
+                    <td> 
+                        <label for = "city">City of Employment</label>
+                    </td>
+                    <td>
+                        <input type="text" name = "city" id = "city" required size = 30>
+                    </td>
+                </tr>
+                
+                <!-- Section for choosing webserver -->
+                <tr>
+                    <td><label for = "webserver">Choose Webserver</label></td>
+                    <td>
+                        <select name="webserver" id = "webserver" required>
+                            <option value="default" selected > 
+                                --- Choose a server --- 
+                            </option>
+                            <option value="apachee">Apachee</option> 
+                            <option value="apachee">Apachee</option> 
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Section for selecting role  -->
+                <tr>
+                    <td>
+                        <label for="role">Please specify your role</label>
+                    </td>
+                    <td>
+                        <input type = "radio" name = "role" id = "admin" value = "admin" required>
+                        <label for = "admin">Admin</label>
+                        <br>
+                        <input type = "radio" name = "role" id = "engineer" value = "engineer">
+                        <label for = "admin">Engineer</label>
+                        <br>
+                        <input type = "radio" name = "role" id = "manager" value = "manager">
+                        <label for = "admin">Manager</label>
+                        <br>
+                        <input type = "radio" name = "role" id = "guest" value = "guest">
+                        <label for = "admin">Guest</label>
+                    </td>
+                </tr>
+
+                <!-- section for signup option  -->
+                <tr>
+                    <td><label for="signup_option">Signup with:</label></td>
+                    <td>
+                        <input type = "checkbox" id = "mail" >
+                        <label for = "mail" name = "mail" value = "mail">Mail</label>
+                        <br>
+                        <input type = "checkbox" id = "payroll" >
+                        <label for = "mail" name = "payroll" value = "payroll">Payroll</label>
+                        <br>
+                        <input type = "checkbox" id = "self_service" >
+                        <label for = "mail" name = "self_service" value = "self_service">Self_service</label>
+                    </td>
+
+                <!-- Section for button  -->
+                </tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <button  type = "submit" value = "login">Login</button>
+                        <button  type = "submit" value = "reset">Reset</button>
+                    </td>
+
+            </tbody>
+    </table>
+</form>
+    
+</body>
+</html>
