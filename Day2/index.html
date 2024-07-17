@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css learning</title>
+
+    <!-- This is Internal Css -->
+    <style>
+        .internal_css p{
+            background-color: tomato;
+            color:antiquewhite;
+        }
+    </style>
+
+    <!-- Syntax to link external Css  -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+    <h1>Different types of Css we can apply.</h1>
+    
+    <!-- Example of Internal Css -->
+    <div class = "internal_css">
+        <p>This css is applied using <span class="highlight">Internal Css</span></p>
+    </div>
+
+    <!-- Example of inline css  -->
+    <p style ="background-color: black; color:white;">This Css is done using <span class ="highlight">Inline Css</span></p>
+
+    <article>
+        <!-- Example of adding Css using Class  -->
+        <p class = "notice ">This is the css applied using the <span class = "highlight">Class</span>
+        
+        <!-- Example of ading Css using Id -->
+        <p id = 'news'>This is the css applied using the <span class = "highlight">Id</span></p>
+    </article>
+        
+
+    
+</body>
+</html>
